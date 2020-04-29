@@ -9,8 +9,12 @@
   "dependencies": {
     "elm-test": "^0.19.1-revision2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "elm-review": "^2.0.2"
+  },
   "scripts": {
+    "lint": "elm-review",
+    "lint:fix": "elm-review --fix-all",
     "test": "elm-test",
     "dev": "elm reactor",
     "build": "elm make src/Main.elm"
