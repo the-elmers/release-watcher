@@ -13,23 +13,22 @@ $ brew install elm
 
 For other operating systems, [see this instruction](https://guide.elm-lang.org/install/elm.html).
 
-Then, install `elm-test` package from NPM
+Then, install NPM dependencies
 
 ```
-$ npm install -g elm-test
+$ npm ci
 ```
 
 Then, launch the app in development mode.
 
 ```
-$ elm reactor
+$ npm run dev
 ```
-
 
 Choose `src` and `Main.elm` file to launch a preview.
 
 Or run tests
 
 ```
-$ elm-test
+$ npm run test
 ```

@@ -1,0 +1,32 @@
+{
+  "name": "release-watcher",
+  "version": "1.0.0",
+  "description": "The web application for tracking recent changes of your favorite open source projects",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "elm-test": "^0.19.1-revision2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "elm-test",
+    "dev": "elm reactor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-elmers/release-watcher.git"
+  },
+  "keywords": [
+    "elm",
+    "release",
+    "github"
+  ],
+  "author": "The Elemers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-elmers/release-watcher/issues"
+  },
+  "homepage": "https://github.com/the-elmers/release-watcher#readme"
+}
