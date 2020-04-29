@@ -12,7 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "elm-test",
-    "dev": "elm reactor"
+    "dev": "elm reactor",
+    "build": "elm make src/Main.elm"
   },
   "repository": {
     "type": "git",
