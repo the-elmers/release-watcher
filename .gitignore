@@ -4,3 +4,5 @@ elm-stuff
 repl-temp-*
 # build
 index.html
+# JS stuff
+node_modules
